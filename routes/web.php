@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 
-use App\Models\Client;
+use App\Models\Post;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,10 +30,15 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
-Route::get('client/add', function(){
-    DB::table('clients')->insert([
-        'name' => 'Bakdaulet',
-        'surname' => 'Batyrkhan',
-        'age' => 18
+Route::get('post/add', function () {
+    DB::table('post')->insert([
+    'id'=>1,
+    'title'=>'Bakdaulet',
+    'body'=>'Student'
     ]);
+});
+
+Route::get('/post', function() {
+$post = DB::table('post')->get();
+return $post;
 });
