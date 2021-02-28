@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
+
+use App\Models\Client;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,4 +29,11 @@ Route::get('/about', function () {
 
 Route::get('/contact', function () {
     return view('contact');
+});
+Route::get('client/add', function(){
+    DB::table('clients')->insert([
+        'name' => 'Bakdaulet',
+        'surname' => 'Batyrkhan',
+        'age' => 19
+    ]);
 });
