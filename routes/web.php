@@ -34,6 +34,6 @@ Route::get('client/add', function(){
     DB::table('clients')->insert([
         'name' => 'Bakdaulet',
         'surname' => 'Batyrkhan',
-        'age' => 19
+        'age' => 18
     ]);
 });
