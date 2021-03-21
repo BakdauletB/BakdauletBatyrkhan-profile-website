@@ -16,3 +16,15 @@ Contact page
 
 Database
 ![Снимок экрана (774)](https://user-images.githubusercontent.com/75556748/109419973-4f0d7900-79fa-11eb-8046-7ae69d2a9167.png)
+
+lab 5 
+post/create
+![Снимок экрана (922)](https://user-images.githubusercontent.com/75556748/111108207-919a8e00-8582-11eb-97b3-580a69e1f885.png)
+post
+![Снимок экрана (923)](https://user-images.githubusercontent.com/75556748/111108259-b0008980-8582-11eb-924c-9278ec1ee621.png)
+
+lab 6
+post/1
+![Снимок экрана (924)](https://user-images.githubusercontent.com/75556748/111108300-c7d80d80-8582-11eb-9477-e37dab283653.png)
+post/10000
+![Снимок экрана (925)](https://user-images.githubusercontent.com/75556748/111108327-d7575680-8582-11eb-8432-444ff09be404.png)
