@@ -31,13 +31,7 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
-// Route::get('post/add', function () {
-//     DB::table('post')->insert([
-//     'id'=>1,
-//     'title'=>'Bakdaulet',
-//     'body'=>'Student'
-//     ]);
-// });
+
 Route::get('/post/create', function () {
     DB::table('post')->insert([
        'title' => 'MyTitle',
