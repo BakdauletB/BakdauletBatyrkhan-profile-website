@@ -15,7 +15,7 @@ class PostTest extends TestCase
      */
     public function test_example()
     {
-        $response = $this->get('/');
+        $response = $this->get('/welcome');
 
         $response->assertStatus(200);
     }
@@ -37,8 +37,11 @@ class PostTest extends TestCase
     
     public function test_post_response()
     {
+        
         $response = $this->get('/post/1');
-
+        
         $response->assertViewHas('post');
+        
     }
+    
 }
